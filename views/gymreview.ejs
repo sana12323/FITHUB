@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <style>
+            table,tr,td{
+                border:2px solid black;
+                border-collapse:collapse;
+                padding: 8px;
+            }
+tr:nth-child(even) {
+    background-color: lightgray;
+}
+tr:nth-child(odd) {
+    background-color:lightgray;
+}
+        </style>
+        <script src="/server.js"></script>
+    </head>
+    <body>
+        <div class="result">
+            <table>
+                    <tr> 
+                        <td style="background-color:black;color:white;">GYM NAME</td>
+                         <td style="background-color:black;color:white;">NAME</td>
+                        <td style="background-color:black;color:white;"> RATING</td>
+                        <td style="background-color:black;color:white;">REVIEW</td>
+                    </tr>
+                    <% for (var i = 0; i < result.length; i++) { %>
+                            <tr>
+                                <td><%= result[i].grgname %></td>
+                                <td><%= result[i].grname %></td>
+                                <td><%= result[i].grrating %></td>
+                                <td><%= result[i].grrevw %></td>
+                             </tr>   
+                        <% } %>
+            </table>
+        </div>
+    </body>
+</html>

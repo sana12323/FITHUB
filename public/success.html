@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <title>PAYMENT</title>
+        <style>
+            body{
+    background-color:black;
+    color:white;
+    margin-left:10px;
+   }
+   img{
+    margin-left: 550px;
+   }
+    button {
+            margin: 20px auto; 
+            display: block; 
+            background-color: rgb(255, 255, 255);
+            color: rgb(0, 0, 0); 
+        }
+        #generate {
+            margin-left:600px;
+        }
+        p{
+            background-color: blueviolet;
+            color: black;
+            width: 40px;
+            
+        }
+        
+        </style>
+    </head>
+    <body>
+        <a style="text-align: end;"  href="index.html">LOGOUT</a>
+        <h2 style="text-align: center;">PAYMENT SUCCESSFUL</h2>
+        <h4 style="text-align: center;">Your Refferal Code is:</h4>
+    <button onclick="generateNumber()">CLICK HERE TO GET YOUR REFERRAL CODE</button>
+    <p id="generate"></p><br><br>
+    <h4 style="text-align: center;">Use this to refer to your fellow gym buddies!</h4><br><br>
+    <img src="qr.jpg" alt="QRCODE" width="150px" height="150px">
+    <h2 style="text-align: center;">Please save this for future purposes</h2>
+        <script>
+      function generateNumber() {
+        var number = document.getElementById("generate");
+        number.innerHTML = Math.floor(Math.random() * (100000 - 10000 + 1)) + 10000;}
+    </script>
+    </body>
+</html>

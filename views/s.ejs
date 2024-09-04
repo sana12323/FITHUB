@@ -1,0 +1,82 @@
+<html>
+    <head>
+        <style>
+            table,tr,td{
+                border:2px solid black;
+                border-collapse:collapse;
+                padding: 8px;
+            }
+tr:nth-child(even) {
+    background-color: lightgray;
+}
+tr:nth-child(odd) {
+    background-color:lightgray;
+}
+td:nth-child(8){
+    width: 100px;
+}
+map-link-cell{
+            max-width: 150px; 
+            overflow: hidden;
+            text-overflow: ellipsis;
+}
+        </style>
+        <script src="/server.js"></script>
+    </head>
+    <body>
+        <div class="result">
+            <table>
+                    <tr>
+                        <td style="background-color:black;color:white;">Gym user id</td>
+                        <td style="background-color:black;color:white;">Gym Name</td>
+                        <td style="background-color:black;color:white;">Gym Owner Name</td>
+                        <td style="background-color:black;color:white;">Phone Number</td>
+                        <td style="background-color:black;color:white;">Email</td>
+                        <td style="background-color:black;color:white;">Gender</td>
+                        <td style="background-color:black;color:white;">Location</td>
+                        <td style="background-color:black;color:white;" class="map-link-cell">Link to the location</td>
+                        <td style="background-color:black;color:white;">Number of staff</td>
+                        <td style="background-color:black;color:white;">Maximum Occupancy</td>
+                        <td style="background-color:black;color:white;">Number of Equipments</td>
+                        <td style="background-color:black;color:white;">Squarefeet</td>
+                        <td style="background-color:black;color:white;">Batches</td>
+                        <td style="background-color:black;color:white;">Feature</td>
+                        <td style="background-color:black;color:white;">Image</td>
+                        <td style="background-color:black;color:white;">Certificate</td>
+                        <td style="background-color:black;color:white;">Id</td>
+                        <td style="background-color:black;color:white;">Register</td>
+                        <td style="background-color:black;color:white;">Review</td>
+                    </tr>
+                    <% for (var i = 0; i < result.length; i++) { %>
+                            <tr>
+                                <td><%= result[i].gid %></td>
+                                <td><%= result[i].gname %></td>
+                                <td><%= result[i].goname %></td>
+                                <td><%= result[i].phn %></td>
+                                <td><%= result[i].email %></td>
+                                <td><%= result[i].gender %></td>
+                                <td><%= result[i].loc %></td>
+                                <td class="map-link-cell"><a href="<%= result[i].mapLink %>"><%= result[i].mapLink %></a></td>
+                                <td><%= result[i].nostaff %></td>
+                                <td><%= result[i].maxo %></td>
+                                <td><%= result[i].noeq %></td>
+                                <td><%= result[i].sqft %></td>
+                                <td><%= result[i].batch %></td>
+                                <td><%= result[i].feature %></td>
+                                <td><img src="<%= result[i].gimage %>" alt="gymimage" width="150px"></td>
+                                <td><img src="<%= result[i].certificate %>"alt="certificate" width="150px"></td>
+                                <td><img src="<%= result[i].id %>" alt="id" width="150px"></td>
+                                <td><input type="submit" name="register" id="register" value="REGISTER" onclick="register()"></td>
+                                <td><input type="submit" name="cusrev" id="cusrev" value="REVIEW" onclick="grev()"></td>
+                            </tr>
+                            <% } %>
+            </table>
+        </div>
+    <script>
+        function register(){
+            window.open('registration.html', '_self');}
+        function grev(){
+            window.open('gymrev.html', '_self');}
+    </script>
+    </body>
+</html>

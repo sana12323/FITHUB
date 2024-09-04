@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym registration</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            margin-left: 10px;
+            background-image: url(gym2.jpg);
+        }
+        label {
+            margin-left: 25px;
+        }
+    </style>
+</head>
+<body>
+<h2 style="margin-left:25px; text-align: center;">REGISTER HERE !!</h2>
+<form align="center" id="reg" onsubmit="return validate()" method="post" action="/reg">
+
+  <label>Gym user id:</label><br>
+  <input style="margin-left:25px" type="text" id="gid" size="80" name="gid">
+  <br><br>
+  <label>Gym Owner Name:</label><br>
+  <input style="margin-left:25px" type="text" id="goname" size="80" name="goname">
+  <br><br>
+  <label>Email:</label><br>
+  <input style="margin-left:25px" type="text" id="email" size="80" name="email">
+  <br><br>
+  <label>Phone Number:</label><br>
+  <input style="margin-left:25px" type="text" id="phn" size="80" name="phn">
+  <br><br>
+  <label>Gender:</label><br>
+  <input style="margin-left:25px" type="radio" name="gender" value="male">Male
+  <input type="radio" name="gender" value="female">Female
+  <br><br><br>
+  <label>Gym Name:</label><br>
+  <input style="margin-left:25px" type="text" id="gname" size="80" name="gname">
+  <br><br>
+  <label>Location:</label><br>
+  <textarea style="margin-left:25px" cols="75" rows="5" id="loc" name="loc" placeholder="Enter in capital letters"></textarea>
+  <br><br>
+  <label>Enter your gym's google map link</label><br>
+  <input style="margin-left:25px" type="url" id="mapLink" name="mapLink">
+  <br><br>
+  <label>No of Staff:</label><br>
+  <input style="margin-left:25px" type="number" id="nostaff" name="nostaff" required>
+  <br><br>
+  <label>Maximum occupancy:</label><br>
+  <input style="margin-left:25px" type="number" id="maxo" name="maxo" required>
+  <br><br>
+  <label>No of equipments:</label><br>
+  <input style="margin-left:25px" type="number" id="noeq" name="noeq" required>
+  <br><br>
+  <label>Square feet:</label><br>
+  <input style="margin-left:25px" type="number" id="sqft" name="sqft" required>
+  <br><br>
+  <label>Enter Batches:</label><br>
+  <textarea style="margin-left:25px" cols="30" rows="4" id="batch" name="batch" placeholder="Morning/Evening (Specify time)" required></textarea>
+  <br><br>
+  <label>Features:</label><br>
+  <textarea style="margin-left:25px" cols="75" rows="7" id="feature" name="feature" required></textarea>
+  <br><br>
+  <label for="image">Upload image:</label><br>
+  <input style="margin-left:25px" type="file" name="gimage" id="gimage" accept="image/*" required>
+  <br><br>
+  <label for="image">Upload Certificate:</label><br>
+  <input style="margin-left:25px" type="file" name="certificate" id="certificate" accept="image/*" required>
+  <br><br>
+  <label for="image">Upload ID:</label><br>
+  <input style="margin-left:25px" type="file" name="id" id="id" accept="image/*" required>
+  <br><br>
+  <input style="margin-left:25px" type="submit" value="SUBMIT">
+</form>
+
+<script>
+function validate() {
+    var goname = document.getElementById("goname").value;
+    var gname = document.getElementById("gname").value;
+    var phn = document.getElementById("phn").value;
+    var email = document.getElementById("email").value;
+    var loc = document.getElementById("loc").value;
+    var feature = document.getElementById("feature").value;
+    var nostaff = document.getElementById("nostaff").value;
+    var maxo = document.getElementById("maxo").value;
+    var noeq = document.getElementById("noeq").value;
+    var sqft = document.getElementById("sqft").value;
+
+    // Check if file inputs are empty
+    var gimage = document.getElementById("gimage").value;
+    var certificate = document.getElementById("certificate").value;
+    var id = document.getElementById("id").value;
+    
+    if (goname === "" || goname === null) {
+        alert("Enter valid gym owner name");
+        return false;
+    }
+
+    if (gname === "" || gname === null) {
+        alert("Enter valid gym name");
+        return false;
+    }
+
+    if (loc === "" || loc === null) {
+        alert("Enter location");
+        return false;
+    }
+
+    if (feature === "" || feature === null) {
+        alert("Enter feature");
+        return false;
+    }
+
+    if (isNaN(phn) || phn.length !== 10 || phn === "" || phn === null) {
+        alert("Enter valid phone number");
+        return false;
+    }
+
+    var pattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]+$/;
+    if (!pattern.test(email)) {
+        alert("Enter valid email");
+        return false;
+    }
+
+    if (isNaN(nostaff) || nostaff <= 0) {
+        alert("Enter valid number of staff");
+        return false;
+    }
+
+    if (isNaN(maxo) || maxo <= 0) {
+        alert("Enter valid maximum occupancy");
+        return false;
+    }
+
+    if (isNaN(noeq) || noeq <= 0) {
+        alert("Enter valid number of equipments");
+        return false;
+    }
+
+    if (isNaN(sqft) || sqft <= 0) {
+        alert("Enter valid square feet");
+        return false;
+    }
+
+    // Check if file inputs are empty
+    if (gimage === "") {
+        alert("Please upload an image");
+        return false;
+    }
+
+    if (certificate === "") {
+        alert("Please upload a certificate");
+        return false;
+    }
+
+    if (id === "") {
+        alert("Please upload an ID");
+        return false;
+    }
+
+    alert("Successfully registered");
+    return true;
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Search your gym!</title>
+<style>
+  .container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .dropbtn {
+    background-color: #69666a;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #6c6a6a;
+  }
+  #myInput {
+    box-sizing: border-box;
+    background-image: url('searchicon.png');
+    background-position: 14px 12px;
+    background-repeat: no-repeat;
+    font-size: 16px;
+    padding: 14px 20px 12px 45px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+  }
+  #myInput:focus {
+    outline: 3px solid #ddd;
+  }
+  .show {
+    display: block;
+  }
+  body {
+    background-color: black;
+    color: rgb(221, 216, 216);
+    background-image: url('gym5.jpg');
+    background-size: cover;
+  }
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  .search {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  .error {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+</style>
+</head>
+<body>
+<h2>Unlock Your Fitness Destination! Find Gyms Near You Now!</h2>
+<div class="container">
+  <div id="myDropdown" class="dropdown-content">
+    <form id="gymForm" action="/search" method="post" onsubmit="return validateForm()">
+      <select id="loc" name="loc">
+        <option value="">Select a location...</option>
+        <option value="KAKKANAD">KAKKANAD</option>
+        <option value="VYTILLA">VYTILLA</option>
+        <option value="KADAVANTHRA">KADAVANTHRA</option>
+        <option value="KALOOR">KALOOR</option>
+        <option value="ALUVA">ALUVA</option>
+        <option value="FORT KOCHI">FORT KOCHI</option>
+        <option value="MG ROAD">MG ROAD</option>
+        <option value="TRIPUNITHRA">TRIPUNITHRA</option>
+      </select>
+      <div id="error-message" class="error"></div>
+      <input class="search" type="submit" value="SUBMIT">
+    </form>
+  </div>
+</div>
+<script>
+function validateForm() {
+  var loc = document.getElementById("loc").value;
+  var errorMessage = document.getElementById("error-message");
+
+  if (loc === "") {
+    errorMessage.textContent = "Please select a location.";
+    return false;
+  } else {
+    errorMessage.textContent = "";
+    return true;
+  }
+}
+
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+function filterFunction() {
+  const input = document.getElementById("myInput");
+  const filter = input.value.toUpperCase();
+  const div = document.getElementById("myDropdown");
+  const a = div.getElementsByTagName("a");
+  for (let i = 0; i < a.length; i++) {
+    txtValue = a[i].textContent || a[i].innerText;
+    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+      a[i].style.display = "";
+    } else {
+      a[i].style.display = "none";
+    }
+  }
+}
+</script>
+</body>
+</html>

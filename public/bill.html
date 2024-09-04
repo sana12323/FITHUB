@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Generate Bill</title>
+<style>
+  body{
+    background-color:black;
+    color:rgb(255, 255, 255);
+    margin-left:10px;
+    background-image: url(gym12.jpg);}
+    select {
+            width: 50%;
+            padding: 10px;
+            margin-top: 10px;
+            margin-bottom: 20px;
+            margin-left: 350px;
+            font-size: 16px;
+            border: 1px solid #000000;
+            border-radius: 4px;
+            box-sizing: border-box;}
+.search{
+  display: block;
+            width: 35%;
+            padding: 10px;
+            background-color: #ffffff;
+            color: #000000;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-left: 400px;
+}
+h3{
+  background-color: #fa0101;
+  text-align: center;
+}
+</style>
+
+</head>
+<body>
+<h2>SELECT YOUR PREFERABLE BATCH</h2>
+<select id="batchOptions">
+  <option value="Select your batch">Select your batch</option>
+  <option value="Morning">Morning</option>
+  <option value="Evening">Evening</option>
+</select>
+<br><br>
+<select id="membershipOptions">
+  <option value="Membership">Select the duration of your membership</option>
+  <option value="1-month">1-Month</option>
+  <option value="3-months">3-Months</option>
+  <option value="6-months">6-Months</option>
+  <option value="1-year">1-Year</option>
+</select>
+<p style="text-align: center;">Note: Avail special discount on choosing longer duration of membership !!</p>
+<div id="bill"></div>
+<br><br>
+<input class="search" type="button" value="PAY NOW" onclick="payment()">
+<script>
+document.getElementById('membershipOptions').addEventListener('change', function() {
+  var selectedOption = this.value;
+  var billContent = "";
+  if (selectedOption === "1-month") {
+    billContent = "<h3>Please pay the amount to confirm your admission in the gym</h3>" +
+                  "<h3>Amount: Rs 1,400</h3>";
+  } else if (selectedOption === "3-months") {
+    billContent = "<h3>Please pay the amount to confirm your admission in the gym</h3>" +
+                  "<h3>Amount: Rs 4000</h3>";
+  } else if (selectedOption === "6-months") {
+    billContent = "<h3>Please pay the amount to confirm your admission in the gym</h3>" +
+                  "<h3>Amount: Rs 8200</h3>";
+  } else if (selectedOption === "1-year") {
+    billContent = "<h3>Please pay the amount to confirm your admission in the gym</h3>" +
+                  "<h3>Amount: Rs 16,000</h3>";
+  }
+  document.getElementById('bill').innerHTML = billContent;
+});
+
+function payment() {
+  var batchSelected = document.getElementById('batchOptions').value;
+  var membershipSelected = document.getElementById('membershipOptions').value;
+  
+  if (batchSelected === "Select your batch" || membershipSelected === "Membership") {
+    alert("Please select both your batch and the duration of your membership.");
+  } else {
+    window.open("payment.html", "_self");
+  }
+}
+</script>
+</body>
+</html>

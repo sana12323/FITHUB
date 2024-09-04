@@ -1,0 +1,1392 @@
+.button-10 {
+  height: 36px;
+  width: 67px;
+  position: relative;
+  border-radius: var(--br-lg);
+  background-color: transparent;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.login {
+  flex: 1;
+  position: relative;
+  font-size: 14px;
+  line-height: 22px;
+  font-family: var(--font-manrope);
+  color: var(--color-white);
+  text-align: center;
+}
+.button-11,
+.container-29 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.button-11 {
+  cursor: pointer;
+  border: 0;
+  padding: 8px 0 var(--padding-4xs) var(--padding-4xs);
+  background-color: var(--color-gray-100);
+  width: 76px;
+  border-radius: var(--br-lg);
+  overflow: hidden;
+  flex-shrink: 0;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.button-11:hover {
+  background-color: #4a4d52;
+}
+.container-29 {
+  align-self: stretch;
+  border-radius: 32px;
+  background-color: var(--color-white);
+  box-shadow: 0 0 2px rgba(23, 26, 31, 0.12), 0 4px 9px rgba(23, 26, 31, 0.11);
+  justify-content: flex-end;
+  padding: var(--padding-sm) 45px;
+  gap: 13px;
+  top: 0;
+  z-index: 99;
+  position: sticky;
+}
+.fithub {
+  margin: 0;
+  width: 321px;
+  position: relative;
+  font-size: inherit;
+  line-height: 78px;
+  font-weight: 800;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+  z-index: 1;
+}
+.registration-text {
+  width: 794px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.group-icon {
+  height: 190.6px;
+  width: 845.2px;
+  position: absolute;
+  margin: 0 !important;
+  top: -142.8px;
+  left: -345.5px;
+  max-width: 100%;
+  overflow: hidden;
+}
+.elevate-your-fitness {
+  width: 840px;
+  position: relative;
+  line-height: 82px;
+  font-weight: 200;
+  display: inline-block;
+  max-width: 270%;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.groupgroup,
+.user-registration-frame {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.groupgroup {
+  width: 297px;
+  height: 23.3px;
+  flex-direction: row;
+  position: relative;
+  margin-top: -35.2px;
+  font-size: var(--font-size-5xl);
+}
+.user-registration-frame {
+  width: 916px;
+  flex-direction: column;
+  padding: 68.69999999999982px 0 0.09999999999990904px 70.20000000000005px;
+  box-sizing: border-box;
+  min-height: 191px;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.d-gym-equipment,
+.fitness-hub-text {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.d-gym-equipment {
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  margin-top: -1px;
+}
+.fitness-hub-text {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.get-started {
+  position: relative;
+  line-height: 28px;
+}
+.button-9,
+.button-9-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.button-9 {
+  border-radius: var(--br-7xl);
+  background-color: #6d31ed;
+  overflow: hidden;
+  justify-content: flex-start;
+  padding: var(--padding-xs) var(--padding-58xl);
+  white-space: nowrap;
+}
+.button-9-wrapper {
+  align-self: stretch;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  text-align: left;
+  font-size: 18px;
+  font-family: var(--font-manrope);
+}
+.login-button,
+.login-button-wrapper {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.login-button {
+  width: 1192px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 23.40000000000009px;
+}
+.login-button-wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+}
+.d-gym-equipment-23-2151114163-icon {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.container-27 {
+  margin-left: -8px;
+  align-self: stretch;
+  background-color: var(--color-black);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 36px 0 4px;
+  box-sizing: border-box;
+  gap: 146.9000000000001px;
+  max-width: 101%;
+  flex-shrink: 0;
+}
+.container-30-child {
+  height: 100px;
+  width: 436px;
+  position: relative;
+  display: none;
+  max-width: 100%;
+  z-index: 2;
+}
+.user-registration {
+  margin: 0;
+  align-self: stretch;
+  height: 70px;
+  position: relative;
+  font-size: inherit;
+  line-height: 41px;
+  font-weight: 390;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.blank-line {
+  margin: 0;
+  color: #030000;
+}
+.blank-line1,
+.unlock-exclusive-access {
+  margin: 0;
+  text-align:justify;
+}
+.unlock-exclusive-access-container {
+  height: 244px;
+  flex: 1;
+  position: relative;
+  line-height: 28px;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.customer-story-frame,
+.elizabeth-taylor {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.elizabeth-taylor {
+  width: 590px;
+  flex-direction: row;
+  padding: 0 21px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-gray-300);
+}
+.customer-story-frame {
+  flex: 1;
+  flex-direction: column;
+  gap: 18px;
+  min-width: 393px;
+}
+.frame-child,
+.image-452x-1-icon {
+  position: absolute;
+  margin: 0 !important;
+}
+.frame-child {
+  height: 126px;
+  width: 262px;
+  top: calc(50% - 63px);
+  left: -191px;
+}
+.image-452x-1-icon {
+  height: 382px;
+  width: 614px;
+  top: -44px;
+  left: -30px;
+  object-fit: cover;
+}
+.click-here-to-register-child {
+  height: 65px;
+  width: 289px;
+  position: relative;
+  border-radius: var(--br-7xl);
+  background-color: var(--color-lime);
+  display: none;
+}
+.click-here-to {
+  height: 51px;
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  line-height: 28px;
+  font-family: var(--font-amaranth);
+  color: var(--color-white);
+  text-align: center;
+  display: inline-block;
+  z-index: 2;
+}
+.click-here-to-register,
+.container-31 {
+  flex-direction: row;
+  box-sizing: border-box;
+  z-index: 1;
+}
+.click-here-to-register {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-sm) var(--padding-xs) 0 0;
+  background-color: var(--color-lime);
+  width: 289px;
+  border-radius: var(--br-7xl);
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  white-space: nowrap;
+}
+.click-here-to-register:hover,
+.login-button-container:hover,
+.rectangle-parent:hover {
+  background-color: var(--color-limegreen);
+}
+.container-31 {
+  align-self: stretch;
+  flex: 1;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  padding: 115px 0;
+  position: relative;
+}
+.container-30,
+.container-30-inner,
+.container-31,
+.f-r-a-m-e-h-o-m-e-p-a-g-e,
+.vector-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.vector-parent {
+  align-self: stretch;
+  height: 382px;
+  flex-direction: row;
+  position: relative;
+}
+.container-30,
+.container-30-inner,
+.f-r-a-m-e-h-o-m-e-p-a-g-e {
+  box-sizing: border-box;
+}
+.container-30-inner {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-2xs) 0 0;
+  min-width: 399px;
+}
+.container-30,
+.f-r-a-m-e-h-o-m-e-p-a-g-e {
+  align-self: stretch;
+}
+.container-30 {
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 135px 27px 146px var(--padding-76xl);
+  gap: 0 101px;
+  z-index: 2;
+  margin-top: -3.9px;
+  font-size: var(--font-size-31xl);
+  color: var(--color-black);
+}
+.f-r-a-m-e-h-o-m-e-p-a-g-e {
+  flex-direction: column;
+  padding: 0 0 83px;
+  text-align: center;
+  font-size: 64px;
+  color: var(--color-white);
+  font-family: var(--font-lexend);
+}
+.gym-registration {
+  margin: 0;
+  height: 125px;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  line-height: 45px;
+  font-weight: 390;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 1px 0 0#1f0404, 0 1px 0#1f0404, -1px 0 0#1f0404, 0-1px 0#1f0404;
+}
+.gym-registration-wrapper {
+  width: 556px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 18px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.the-gym-registration {
+  align-self: stretch;
+  height: 222px;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  line-height: 28px;
+  text-align: justify;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.fitness-journey-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 61px;
+  min-width: 389px;
+  max-width: 100%;
+}
+.image-46-icon {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-5xs) var(--br-5xs) 0 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.frame-item {
+  height: 65px;
+  width: 259px;
+  position: relative;
+  border-radius: var(--br-7xl);
+  background-color: var(--color-lime);
+  display: none;
+}
+.click-here-to1 {
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  line-height: 28px;
+  font-family: var(--font-amaranth);
+  color: var(--color-white);
+  text-align: center;
+  z-index: 2;
+}
+.rectangle-parent {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-mini) 5px var(--padding-3xl) 0;
+  background-color: var(--color-lime);
+  width: 259px;
+  border-radius: var(--br-7xl);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  white-space: nowrap;
+  z-index: 1;
+}
+.container-33,
+.gymregistrationframe,
+.gymregistrationframe-wrapper {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.container-33 {
+  height: 343px;
+  width: 569px;
+  border-radius: var(--br-7xl);
+  background-color: #1e2128;
+  align-items: flex-end;
+  justify-content: center;
+  padding: var(--padding-16xl) var(--padding-xl);
+  position: relative;
+  min-width: 569px;
+}
+.gymregistrationframe,
+.gymregistrationframe-wrapper {
+  justify-content: flex-start;
+}
+.gymregistrationframe {
+  width: 1304px;
+  align-items: flex-end;
+  padding: 0 var(--padding-xl) 0 0;
+  gap: 116px;
+}
+.gymregistrationframe-wrapper {
+  width: 1377px;
+  align-items: flex-start;
+  padding: 0 0 156px var(--padding-xl);
+  text-align: center;
+  font-size: var(--font-size-31xl);
+  color: var(--color-white);
+  font-family: var(--font-lexend);
+}
+.admin-login1,
+.blank-line2,
+.blank-line3,
+.blank-line4 {
+  margin: 0;
+}
+.admin-login-txt-container {
+  width: 100%;
+}
+.admin-login {
+  margin: 0;
+  width: 569px;
+  height: 79px;
+  position: relative;
+  font-size: inherit;
+  
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  max-width: 100%;
+  font-family: inherit;
+}
+.blank-line5,
+.blank-line6,
+.blank-line7 {
+  margin: 0;
+}
+.for-privileged-access {
+  margin: 0;
+  color: var(--color-gray-100);
+  
+  text-align:justify;
+}
+.for-privileged-access-container {
+  height: 222px;
+  flex: 1;
+  position: relative;
+  line-height: 26px;
+  display: inline-block;
+  max-width: 100%;
+}
+.access-your-features,
+.admin-login-parent,
+.get-started-to-access {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.access-your-features {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-9xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-weight:390;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+}
+.admin-login-parent,
+.get-started-to-access {
+  flex-direction: column;
+}
+.admin-login-parent {
+  align-self: stretch;
+}
+.get-started-to-access {
+  flex: 1;
+  padding: var(--padding-4xl) 0 0;
+  box-sizing: border-box;
+  min-width: 393px;
+}
+.image-47-icon {
+  width: 614px;
+  position: relative;
+  border-radius: var(--br-xl);
+  max-height: 100%;
+  object-fit: cover;
+  display: none;
+  max-width: 100%;
+}
+.login-button-container-child {
+  height: 66px;
+  width: 290px;
+  position: relative;
+  border-radius: var(--br-7xl);
+  display: none;
+}
+.click-here-to2 {
+  height: 34px;
+  flex: 1;
+  position:relative;
+  font-size: var(--font-size-5xl);
+  line-height: 26px;
+  font-family: var(--font-amaranth);
+  color: var(--color-white);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  z-index: 2;
+}
+.login-button-container {
+  cursor: pointer;
+  border: 0;
+  padding: 16px var(--padding-xs);
+  background-color: var(--color-lime);
+  width: 290px;
+  border-radius: var(--br-7xl);
+  align-items: flex-start;
+  justify-content: flex-start;
+  white-space: nowrap;
+  z-index: 1;
+}
+.container-34,
+.linklink,
+.login-button-container {
+  display:flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.linklink {
+  flex: 0.9349;
+  border-radius: var(--br-xl);
+  align-items: flex-end;
+  justify-content: center;
+  padding: var(--padding-6xl) var(--padding-xl);
+  background-image: url(image-47@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  min-width: 399px;
+  min-height: 382px;
+  max-width: 100%;
+
+}
+.container-34 {
+  margin-right: -20px;
+  width: 1482px;
+  background-color: var(--color-white);
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-141xl) 102px var(--padding-141xl) var(--padding-58xl);
+  gap: 85px;
+  max-width: 103%;
+  flex-shrink: 0;
+}
+.build-your-tale {
+  margin: 0;
+  width: 494px;
+  position: relative;
+  font-size: inherit;
+  line-height: 68px;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+}
+.customer-stories-frame {
+  width: 956px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 100%;
+}
+.image-51-icon {
+  width: 322px;
+  height: 201px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: 81px;
+  left: -133px;
+  border-radius: var(--br-5xs);
+  object-fit: cover;
+}
+.image-49-icon,
+.image-50-icon,
+.image-52-icon {
+  position: relative;
+  border-radius: var(--br-5xs);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  min-height: 201px;
+}
+.contact-us-frame {
+  align-self: stretch;
+  display: grid;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 24px;
+  max-width: 100%;
+  grid-template-columns: repeat(3, minmax(241px, 1fr));
+}
+.image-53-icon,
+.image-54-icon {
+  width: 322px;
+  height: 201px;
+  position: absolute;
+  margin: 0 !important;
+  right: -134px;
+  bottom: 81px;
+  border-radius: var(--br-5xs);
+  object-fit: cover;
+}
+.image-54-icon {
+  right: -480px;
+}
+.container-41,
+.textabout-us {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.container-41 {
+  background-color: var(--color-gray-100);
+  padding: 98px 212px 81px 213px;
+  box-sizing: border-box;
+  position: relative;
+  gap: 142px;
+  z-index: 3;
+  margin-top: -98px;
+  font-size: var(--font-size-29xl);
+  color: var(--color-white);
+}
+.textabout-us {
+  text-align: center;
+  font-size: var(--font-size-31xl);
+  color: var(--color-gray-100);
+  font-family: var(--font-lexend);
+}
+.customer-stories {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 68px;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.fithub-has-been {
+  text-align:justify;
+  margin: 0;
+}
+.elizabeth-taylor1,
+.t-has-completely-container {
+  width: 296px;
+  position: relative;
+  line-height: 26px;
+  display: inline-block;
+}
+.elizabeth-taylor1 {
+  width: 133px;
+  height: 31px;
+  font-weight: 600;
+  font-family: var(--font-lexend);
+  flex-shrink: 0;
+}
+.avatar-1-icon {
+  width: 96px;
+  height: 96px;
+  position: absolute;
+  margin: 0 !important;
+  top: -41px;
+  left: 20px;
+  border-radius: var(--br-29xl);
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.container-36,
+.testimonial-frame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.container-36 {
+  align-self: stretch;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gray-200);
+  box-shadow: 0 0 2px rgba(23, 26, 31, 0.12), 0 0 1px rgba(23, 26, 31, 0.07);
+  padding: var(--padding-60xl) var(--padding-xl) var(--padding-9xl);
+  position: relative;
+  gap: var(--gap-10xl);
+}
+.testimonial-frame {
+  width: 362px;
+  padding: 0 19px 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.ashley-watson,
+.i-appreciate-the {
+  position: relative;
+   line-height: 26px;
+}
+.i-appreciate-the {
+  align-self: stretch;
+  text-align:justify;
+
+  white-space: pre-wrap;
+}
+.ashley-watson {
+  width: 129px;
+  height: 31px;
+  font-weight: 600;
+  font-family: var(--font-lexend);
+  display: inline-block;
+  flex-shrink: 0;
+}
+.avatar-2-icon {
+  width: 96px;
+  height: 96px;
+  position: absolute;
+  margin: 0 !important;
+  top: -41px;
+  left: 20px;
+  border-radius: var(--br-29xl);
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.container-37 {
+  width: 343px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gray-200);
+  box-shadow: 0 0 2px rgba(23, 26, 31, 0.12), 0 0 1px rgba(23, 26, 31, 0.07);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-60xl) var(--padding-mini) 24px var(--padding-xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-40xl);
+  max-width: 100%;
+}
+.caleb-jones,
+.the-ai-tools {
+  position: relative;
+  line-height: 26px;
+}
+.the-ai-tools {
+  align-self: stretch;
+  text-align:justify;
+}
+.caleb-jones {
+  width: 135px;
+  height: 45px;
+  font-weight: 600;
+  font-family: var(--font-lexend);
+  white-space: pre-wrap;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.avatar-3-icon {
+  width: 96px;
+  height: 96px;
+  position: absolute;
+  margin: 0 !important;
+  top: -41px;
+  left: 20px;
+  border-radius: var(--br-29xl);
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.container-38,
+.fithub-solution-frame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.container-38 {
+  align-self: stretch;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gray-200);
+  box-shadow: 0 0 2px rgba(23, 26, 31, 0.12), 0 0 1px rgba(23, 26, 31, 0.07);
+  padding: var(--padding-60xl) var(--padding-mini) 0 var(--padding-xl);
+  position: relative;
+  gap: 50px;
+}
+.fithub-solution-frame {
+  width: 343px;
+  padding: 0 0 7px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.container-35,
+.flexibility-text-container {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.flexibility-text-container {
+  flex-direction: row;
+  align-items: flex-end;
+  gap: 64px;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+  font-family: var(--font-manrope);
+}
+.container-35 {
+  background-color: #edf0f4;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 72px 131px var(--padding-46xl) 132px;
+  box-sizing: border-box;
+  gap: 72px;
+}
+.about-us {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 68px;
+  font-weight: 700;
+  font-family: inherit;
+  flex-shrink: 0;
+}
+.group-icon1 {
+  height: 203.3px;
+  width: 731.2px;
+  position: absolute;
+  margin: 0 !important;
+  top: -67.3px;
+  right: -460.4px;
+}
+.fithub-provides-a {
+  margin: 0;
+}
+.fithub-provides-a-container {
+  height: 222px;
+  width: 496px;
+  position: relative;
+  line-height: 30px;
+  font-weight: 300;
+  display: inline-block;
+  flex-shrink: 0;
+  text-align:justify;
+  max-width: 103%;
+  z-index: 1;
+}
+.fithub-logo-frame,
+.group-frame {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.group-frame {
+  align-self: stretch;
+  height: 195.3px;
+  flex-direction: row;
+  position: relative;
+}
+.fithub-logo-frame {
+  width: 496px;
+  flex-direction: column;
+  padding: 1px var(--padding-sm) 0 0;
+  box-sizing: border-box;
+  min-width: 496px;
+  min-height: 223px;
+}
+.contact-us {
+  margin: 0;
+  line-height: 60px;
+}
+.blank-line8,
+.blank-line9,
+.fithubgmailcom,
+.p {
+  margin: 0;
+  line-height: 50px;
+}
+.contact-us-9845712376-container {
+  height: 241px;
+  width: 482.4px;
+  position: relative;
+  font-weight: 300;
+  display: inline-block;
+  flex-shrink: 0;
+  min-width: 482.4px;
+  max-width: 100%;
+  z-index: 1;
+}
+.footer-frame,
+.image-48 {
+  align-self: stretch;
+  flex-shrink: 0;
+  display: flex;
+  align-items: flex-start;
+}
+.footer-frame {
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 101%;
+  gap: 20px;
+  text-align: left;
+  font-size: var(--font-size-9xl);
+}
+.image-48 {
+  height: 365px;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-mini) var(--padding-2xs) 0;
+  box-sizing: border-box;
+  gap: var(--gap-40xl);
+  max-width: 100%;
+}
+.copyright-2024-fithub {
+  height: 36px;
+  width: 650px;
+  position: relative;
+  line-height: 22px;
+  font-weight: 300;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.copyright-text {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-manrope);
+}
+.copyright-text,
+.homepage-header-frame,
+.logo-image-frame {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.homepage-header-frame {
+  width: 1177px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 60px;
+}
+.logo-image-frame {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-29xl);
+  color: var(--color-white);
+  font-family: var(--font-lexend);
+}
+.copyright-text-frame,
+.homepage-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.homepage-container {
+  flex: 1;
+  gap: 39px;
+  max-width: 100%;
+}
+.copyright-text-frame {
+  height: 475px;
+  width: -140px;
+  padding: 0 0 29px;
+  box-sizing: border-box;
+}
+.homepage,
+.logo-image-rectangle {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.logo-image-rectangle {
+  align-self: stretch;
+  flex-direction: row;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: #0c0101;
+  font-family: var(--font-lexend);
+}
+.homepage {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-gray-100);
+  box-shadow: 0 3px 6px rgba(18, 15, 40, 0.12);
+  overflow: hidden;
+  flex-direction: column;
+  padding: 10px 0 var(--padding-3xl);
+  box-sizing: border-box;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1350px) {
+  .f-r-a-m-e-h-o-m-e-p-a-g-e {
+    padding-bottom: 54px;
+    box-sizing: border-box;
+  }
+  .container-34 {
+    gap: 85px 42px;
+    padding-left: 38px;
+    padding-right: 51px;
+    box-sizing: border-box;
+  }
+  .flexibility-text-container {
+    flex-wrap: wrap;
+    gap: 64px 32px;
+  }
+  .homepage-header-frame {
+    gap: 30px 60px;
+  }
+}
+@media screen and (max-width: 1125px) {
+  .user-registration-frame {
+    padding-left: var(--padding-16xl);
+    box-sizing: border-box;
+  }
+  .f-r-a-m-e-h-o-m-e-p-a-g-e {
+    padding-bottom: var(--padding-16xl);
+    box-sizing: border-box;
+  }
+  .container-33 {
+    flex: 1;
+  }
+  .gymregistrationframe {
+    flex-wrap: wrap;
+  }
+  .get-started-to-access {
+    flex: 1;
+  }
+  .linklink {
+    flex: 1;
+    min-height: auto;
+  }
+  .container-34 {
+    flex-wrap: wrap;
+  }
+  .contact-us-frame {
+    justify-content: center;
+    grid-template-columns: repeat(2, minmax(241px, 419px));
+  }
+  .fithub-logo-frame {
+    flex: 1;
+    padding-right: 0;
+    box-sizing: border-box;
+    min-height: auto;
+  }
+  .contact-us-9845712376-container {
+    flex: 1;
+  }
+  .footer-frame {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .image-48 {
+    height: auto;
+  }
+}
+@media screen and (max-width: 800px) {
+  .fithub {
+    font-size: 51px;
+    line-height: 62px;
+  }
+  .container-27 {
+    gap: 73px 146.9000000000001px;
+  }
+  .user-registration {
+    font-size: var(--font-size-21xl);
+    line-height: 22px;
+  }
+  .container-30-inner,
+  .customer-story-frame {
+    min-width: 100%;
+  }
+  .container-30 {
+    gap: 0 50px;
+    padding-left: var(--padding-28xl);
+    padding-bottom: var(--padding-76xl);
+    box-sizing: border-box;
+  }
+  .f-r-a-m-e-h-o-m-e-p-a-g-e {
+    padding-bottom: var(--padding-4xl);
+    box-sizing: border-box;
+  }
+  .gym-registration {
+    font-size: var(--font-size-21xl);
+    line-height: 22px;
+  }
+  .fitness-journey-container {
+    gap: 30px 61px;
+    min-width: 100%;
+  }
+  .container-33 {
+    min-width: 100%;
+  }
+  .gymregistrationframe {
+    gap: 116px 58px;
+  }
+  .gymregistrationframe-wrapper {
+    padding-bottom: 101px;
+    box-sizing: border-box;
+  }
+  .admin-login {
+    font-size: var(--font-size-21xl);
+    line-height: 21px;
+  }
+  .get-started-to-access,
+  .linklink {
+    min-width: 100%;
+  }
+  .container-34 {
+    gap: 85px 21px;
+    padding-top: var(--padding-85xl);
+    padding-right: var(--padding-6xl);
+    padding-bottom: var(--padding-85xl);
+    box-sizing: border-box;
+  }
+  .build-your-tale {
+    font-size: var(--font-size-19xl);
+    line-height: 54px;
+  }
+  .image-49-icon,
+  .image-50-icon,
+  .image-52-icon {
+    width: 100%;
+  }
+  .contact-us-frame {
+    grid-template-columns: minmax(241px, 1fr);
+  }
+  .container-41 {
+    gap: 71px 142px;
+    padding-left: var(--padding-87xl);
+    padding-right: var(--padding-87xl);
+    padding-bottom: 53px;
+    box-sizing: border-box;
+  }
+  .customer-stories {
+    font-size: var(--font-size-19xl);
+    line-height: 54px;
+  }
+  .flexibility-text-container {
+    gap: 64px 16px;
+  }
+  .container-35 {
+    gap: 36px 72px;
+    padding: var(--padding-28xl) var(--padding-46xl) 42px 66px;
+    box-sizing: border-box;
+  }
+  .about-us {
+    font-size: var(--font-size-19xl);
+    line-height: 54px;
+  }
+  .contact-us-9845712376-container,
+  .fithub-logo-frame {
+    min-width: 100%;
+  }
+  .image-48 {
+    gap: 29px 59px;
+  }
+  .homepage-container {
+    gap: 19px 39px;
+  }
+  .logo-image-rectangle {
+    gap: 140px 70px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .fithub {
+    font-size: var(--font-size-19xl);
+    line-height: 47px;
+  }
+  .elevate-your-fitness {
+    font-size: var(--font-size-lgi);
+    line-height: 62px;
+  }
+  .button-9 {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .container-27 {
+    gap: 37px 146.9000000000001px;
+  }
+  .user-registration {
+    font-size: var(--font-size-11xl);
+    line-height: 17px;
+  }
+  .unlock-exclusive-access-container {
+    font-size: var(--font-size-lgi);
+    line-height: 22px;
+  }
+  .container-30 {
+    gap: 0 25px;
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .gym-registration {
+    font-size: var(--font-size-11xl);
+    line-height: 17px;
+  }
+  .the-gym-registration {
+    font-size: var(--font-size-lgi);
+    line-height: 22px;
+  }
+  .fitness-journey-container {
+    gap: 15px 61px;
+  }
+  .gymregistrationframe {
+    gap: 116px 29px;
+  }
+  .admin-login {
+    font-size: var(--font-size-11xl);
+    line-height: 16px;
+  }
+  .for-privileged-access-container {
+    font-size: var(--font-size-lgi);
+    line-height: 21px;
+  }
+  .build-your-tale {
+    font-size: var(--font-size-10xl);
+    line-height: 41px;
+  }
+  .container-41 {
+    gap: 35px 142px;
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .customer-stories {
+    font-size: var(--font-size-10xl);
+    line-height: 41px;
+  }
+  .container-37 {
+    gap: 29px 59px;
+  }
+  .container-38 {
+    gap: 34px 69px;
+  }
+  .container-35 {
+    gap: 18px 72px;
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .about-us {
+    font-size: var(--font-size-10xl);
+    line-height: 41px;
+  }
+  .fithub-provides-a-container {
+    line-height: 22px;
+  }
+  .contact-us-9845712376-container,
+  .fithub-provides-a-container {
+    font-size: var(--font-size-3xl);
+  }
+  .copyright-2024-fithub {
+    font-size: var(--font-size-lgi);
+    line-height: 18px;
+  }
+  .logo-image-rectangle {
+    gap: 140px 35px;
+  }
+}

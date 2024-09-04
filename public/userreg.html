@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>USER</title>
+<style>
+body{
+background-color:black;
+color:white;
+margin-left:10px;
+background-image: url(gym.png);
+}
+label{
+margin-left:25px;
+}
+.search{
+            display:block;
+            padding: 10px;
+            background-color: #ffffff;
+            color: #000000;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            width: 15%;
+            margin-left: 550px;
+}
+
+</style>
+</head>
+<body>
+<h2 style="margin-left:25px; text-align: center;">REGISTER HERE !!</h2>
+<form align="center" id="reg" onsubmit="return validate()" method="post" action="/user">
+
+<label>Username:</label><br>
+<input style="margin-left:25px" type="text" id="uname" size="80" name="uname">
+<br><br>
+<label>Password:</label><br>
+<input style="margin-left:25px" type="password" id="pwd" size="80" name="pwd">
+<br><br>
+ 
+<label>Email:</label><br>
+<input style="margin-left:25px" type="text" id="email" size="80" name="email">
+ <br><br>
+
+<label>Phone Number:</label><br>
+<input style="margin-left:25px" type="text" id="phn" size="80" name="phn">
+<br><br>
+
+<input class="search"  type="submit" value="SUBMIT" >
+</form>
+<script>
+
+function validate()
+{
+var uname=document.getElementById("uname").value;
+var pwd=document.getElementById("pwd").value;
+ var phn=document.getElementById("phn").value;
+var email=document.getElementById("email").value;
+
+if( uname===null || pwd===null || phn===null || email===null){
+  alert("Enter valid username,password,phone and email")
+  return false;
+}
+if(uname.length<6 || uname==="" || uname===null)
+{  alert("Enter valid username of minimum length 6");
+return false;
+}
+if(pwd.length<6 || pwd==="" || pwd===null)
+{
+  alert("Password should be of minimum length 6");
+return false;
+}
+ 
+if(phn.length!=10 || phn==="" || phn===null)
+{
+  alert("Enter valid phone number");
+return false;
+}
+
+  var pattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]/;
+      if (!email.match(pattern)) {
+        alert("enter valid email");
+        return false;
+      }
+
+ 
+
+alert("SUCCESSFULLY REGISTERED");
+ return true;
+}
+</script>
+
+</body>
+</html>

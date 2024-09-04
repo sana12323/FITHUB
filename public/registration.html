@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>REGISTRATION</title>
+<style>
+body{
+background-color:black;
+color:white;
+margin-left:10px;
+background-image: url(gym10.jpg);
+}
+label{
+margin-left:25px;
+}
+
+</style>
+</head>
+<body>
+<h2 style="margin-left:25px; text-align: center;">REGISTER HERE !!</h2>
+<form align="center" id="reg" onsubmit="return validate()" action="/register" method="post" target="_self" >
+
+<label>First Name:</label><br>
+<input style="margin-left:25px" type="text" id="fname" size="80" name="fname">
+<br><br>
+ 
+<label>Last Name:</label><br>
+<input style="margin-left:25px" type="text" id="lname" size="80" name="lname">
+<br><br>
+ 
+<label>Email:</label><br>
+<input style="margin-left:25px" type="text" id="email" size="80" name="email">
+ <br><br>
+
+<label>Phone Number:</label><br>
+<input style="margin-left:25px" type="text" id="phn" size="80" name="phn">
+<br><br>
+
+<label>Age:</label><br>
+<input style="margin-left:25px" type="number" id="age" name="age"><br><br>
+
+<label>Gender:</label><br>
+<input style="margin-left:25px" type="radio" name="gender" value="male">male
+<input type="radio" name="gender" value="female">female<br><br>
+
+<label>Address:</label><br>
+<textarea style="margin-left:25px" cols="75" rows="5" id="adr" name="adr"></textarea><br><br>
+
+<label>Weight:</label><br>
+<input style="margin-left:25px" type="number" id="weight" name="weight" placeholder="weight in kg"><br><br>
+
+<label>Height:</label><br>
+<input style="margin-left:25px" type="number" id="height" name="height" placeholder="height in cm"><br><br>
+
+<label>Would you like to opt for a personal trainer?</label><br>
+<input style="margin-left:25px" type="radio" name="pt" value="YES" id="pt">YES
+<input type="radio" name="pt" value="NO" id="pt">NO<br><br>
+<label>Do you have a referral code? If YES please enter:</label><br>
+<input style="margin-left: 25px;" type="input" id="ref" name="ref"><br><br>
+
+<input style="margin-left:25px" type="submit" value="REGISTER" >
+</form>
+<script>
+function validate() {
+    var fname = document.getElementById("fname").value;
+    var lname = document.getElementById("lname").value;
+    var phn = document.getElementById("phn").value;
+    var email = document.getElementById("email").value;
+    var weight = document.getElementById("weight").value;
+    var height = document.getElementById("height").value;
+    var age = document.getElementById("age").value;
+
+
+    if (fname === "" || fname === null || lname === "" || lname === null) {
+        alert("Enter valid first and last name");
+        return false;
+    }
+
+    if (phn.length !== 10 || phn === "" || phn === null) {
+        alert("Enter valid phone number");
+        return false;
+    }
+
+    var pattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]+$/;
+    if (!pattern.test(email)) {
+        alert("Enter valid email");
+        return false;
+    }
+
+    if (weight === "" || weight === null) {
+        alert("Enter valid weight");
+        return false;
+    }
+
+    if (height === "" || height === null || height <=100 ) {
+        alert("Enter valid height");
+        return false;
+    }
+    if (age <=15|| age >=90|| age === "" || age === null) {
+        alert("Enter valid age");
+        return false;
+    }
+
+    alert("Successfully Registered");
+    return true;
+}
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <style>
+    body {
+      background-color: black;
+      color: white;
+      background-image: url(gym4.jpg);
+      background-size: cover;
+    }
+    label {
+      margin-left: 25px;
+    }
+    input[type="submit"] {
+      margin-left: 25px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1 style="text-align: center; margin-left: 25px;">FITHUB</h1>
+  <h2 style="text-align: center; margin-left: 25px;">LOGIN</h2>
+  <form align="center" id="loginForm" action="/login" method="POST" onsubmit="return validateForm()">
+    <label for="username">Username:</label><br>
+    <input style="margin-left: 25px" type="text" id="username" name="username"><br><br>
+    <label for="password">Password:</label><br>
+    <input style="margin-left: 25px" type="password" id="password" name="password"><br><br>
+    <input type="submit" value="Login">
+  </form>
+  <script>
+    function validateForm() {
+      var username = document.getElementById("username").value;
+      var password = document.getElementById("password").value;
+
+      if(username === "" && password === "" )
+      {
+        alert("Enter username and password");
+        return false;
+      }
+
+      if (username === "" || username === null) {
+        alert("Please enter your username.");
+        return false;
+      }
+
+
+      if (password === "" || password === null) {
+        alert("Please enter your password.");
+        return false;
+      }
+
+
+
+      return true; // Form is valid, proceed with submission
+    }
+  </script>
+</body>
+</html>
